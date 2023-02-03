@@ -28,8 +28,9 @@ cd ~/.config/nvim/lua/plugins/plugins-setup.lua
 
 取消注释
 ```shell
-nvim /Users/leig/.config/nvim/lua/base/keymaps.lua
-nvim /Users/leig/.config/nvim/lua/base/options.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/.config/nvim/lua/base/keymaps.lua
+nvim ~/.config/nvim/lua/base/options.lua
 ```
 
 安装编程语言支持
