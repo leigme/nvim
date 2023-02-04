@@ -20,13 +20,18 @@ https://github.com/sumneko/lua-language-server/wiki/Getting-Started#command-line
 brew install lua-language-server
 ```
 
+取消插件管理器的注释
+```shell
+nvim ~/.config/nvim/init.lua
+```
+
 安装插件
 ```shell
 cd ~/.config/nvim/lua/plugins/plugins-setup.lua
 :packerSync
 ```
 
-取消注释
+取消插件的注释
 ```shell
 nvim ~/.config/nvim/init.lua
 nvim ~/.config/nvim/lua/base/keymaps.lua
